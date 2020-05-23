@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-course-starter",
-  "description": "a gatsby seed project to get your education site started",
+  "name": "complete-intro-to-linux-and-the-cli",
+  "description": "the course website for the Complete Intro to Linux and the Command Line",
   "version": "1.0.0",
-  "author": "Brian Holt <btholt+course-starter@gmail.com>",
+  "author": "Brian Holt <btholt+cli@gmail.com>",
   "dependencies": {
     "bootstrap": "^4.5.0",
     "code-mirror-themes": "^1.0.0",

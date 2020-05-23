@@ -1,9 +1,9 @@
 .gradient {
-  background: rgb(96, 108, 136);
+  background: rgb(100, 170, 182);
   background: linear-gradient(
     to bottom,
-    rgb(96, 108, 136) 0%,
-    rgb(63, 76, 107) 100%
+    rgb(100, 170, 182) 0%,
+    rgb(55, 110, 114) 100%
   );
 }
 

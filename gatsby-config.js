@@ -1,17 +1,21 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter Course",
-    subtitle: "For making great content",
+    title: "Complete Intro to Linux and the CLI",
+    subtitle: "Learn how to use the command",
     description:
-      "This is the description that will show up when people share as well as on search engines",
+      "The complete intro to using Linux and the command line as taught by Brian Holt",
     keywords: [
-      "this is",
-      "a list of keywords and phrase",
-      "that search engines",
-      "will index your page for"
+      "linux",
+      "ubuntu",
+      "command line",
+      "cli",
+      "javascript",
+      "bash",
+      "zsh",
+      "js"
     ]
   },
-  //pathPrefix: "/my-repo-name", // if you're using GitHub Pages, put the name of the repo here with a leading slash
+  pathPrefix: "/complete-intro-to-linux-and-the-cli",
   plugins: [
     `gatsby-plugin-layout`,
     {

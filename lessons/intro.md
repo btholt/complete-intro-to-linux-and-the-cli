@@ -6,21 +6,81 @@ section: "The First Section"
 description: "this is the description that will show up in social shares"
 ---
 
-This is page one.
+# Agenda
 
-## Check out this image
-
-![Gatsby Logo](./images/logo.svg)
-
-## Check out a code sample
-
-```js
-const x = 2 + 2;
-```
-
-- This is a link to [Frontend Masters][fem].
-- This another link to [Brian Holt's Twitter](https://twitter.com/holtbt).
-- Here's another link to a [site built with this starter][containers].
-
-[fem]: https://www.frontendmasters.com
-[containers]: https://btholt.github.io/complete-intro-to-containers/
+- Purpose of the course
+- What is Linux
+- Why you need or car about Linux
+- A note on virtualizations and VMs
+- Distros
+- Let's Get Linux Running
+  - VirtualBox
+  - WSL
+  - Multipass
+  - Docker
+- What is a command line? What is a REPL?
+- Why you should care about the command line
+- The shell
+  - bash, zsh, cmd.exe, PowerShell
+- The basic anatomy of a CLI command
+  - echo
+  - A command
+  - Flags
+  - Arguements
+- The power of CTRL and signals
+  - kill -l
+  - CTRL+C
+  - CTRL+D / exit
+  - CTRL+L / clear
+- File system navigation
+  - cd
+  - ls
+  - pwd
+- Where stuff is and why in Linux
+- Interacting with files
+  - cat
+  - tail
+  - less / more
+  - touch
+- Users, groups and permissions
+  - su
+  - sudo
+  - chmod
+  - chown
+- Environments
+  - Variables
+- The briefest primer on command line editors
+  - nano
+  - vi
+- IO
+  - Piping into another command
+  - Piping into a file (>, >>)
+  - /dev/null
+  - Piping from a file (<)
+- Package management / apt-get / snap
+- Background / foreground
+  - Sending a process to the background (&)
+  - CTRL+Z, bg
+  - jobs, fg
+- Processes
+  - pid
+  - ps
+  - kill
+  - top / htop
+- Internet
+  - ping
+  - curl
+  - wget
+- ssh
+  - ssh
+  - ssh keys
+  - sftp
+- Writing your own scripts
+  - Conditionals
+  - Loops
+  - Arrays
+  - Functions
+- Customizing your own dotfiles
+- Finding things
+  - grep
+  - locate

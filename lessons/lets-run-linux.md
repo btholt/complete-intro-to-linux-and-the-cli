@@ -1,7 +1,7 @@
 ---
 path: "/lets-run-linux"
 title: "Let's Run Linux"
-order: "2B"
+order: "2C"
 description: "What is Linux? Why do you need it? Brian goes into why we need Linux and where it came from"
 section: "Linux"
 ---

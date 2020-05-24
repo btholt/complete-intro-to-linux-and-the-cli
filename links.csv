@@ -1,4 +1,4 @@
-order,title,link0
-1A,Introduction,
-2A,Page 2,https://en.wikipedia.org/wiki/2
-2B,Page 3,
+order,title,link0,link1,link2,link3,link4,link5,link6,link7,link8,link9
+1A,Introduction,,,,,,,,,,
+2A,What you will learn,,,,,,,,,,
+2B,What is Linux,https://en.wikipedia.org/wiki/Unix-like,https://en.wikipedia.org/wiki/Unix_philosophy,https://ubuntu.com/,https://www.debian.org/,https://www.debian.org/,https://linuxmint.com/,https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux,https://www.alpinelinux.org/,https://www.kali.org/,https://www.centos.org/

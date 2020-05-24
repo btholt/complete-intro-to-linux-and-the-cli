@@ -1,5 +1,5 @@
 path,title,order,section,description
 "/intro","Introduction","1A","The First Section","this is the description that will show up in social shares"
 "/what-will-you-learn","What you will learn","2A","Linux","It is always good to go in knowing what you're about to learn. Brian goes over why this course is useful to you and what problems Linux is going to solve for you."
-"/lets-run-linux","Let's Run Linux","2B","Linux","What is Linux? Why do you need it? Brian goes into why we need Linux and where it came from"
 "/what-is-linux","What is Linux","2B","Linux","What is Linux? Why do you need it? Brian goes into why we need Linux and where it came from"
+"/lets-run-linux","Let's Run Linux","2C","Linux","What is Linux? Why do you need it? Brian goes into why we need Linux and where it came from"

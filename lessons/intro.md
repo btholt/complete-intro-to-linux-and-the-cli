@@ -10,7 +10,7 @@ description: "this is the description that will show up in social shares"
 
 - Purpose of the course
 - What is Linux
-- Why you need or car about Linux
+- Why you need or care about Linux
 - A note on virtualizations and VMs
 - Distros
 - Let's Get Linux Running
@@ -26,7 +26,11 @@ description: "this is the description that will show up in social shares"
   - echo
   - A command
   - Flags
-  - Arguements
+  - Arguments
+- Common Tips and Tricks
+  - Up / Down
+  - CTRL+R
+  - .bash_history
 - The power of CTRL and signals
   - kill -l
   - CTRL+C
@@ -84,3 +88,7 @@ description: "this is the description that will show up in social shares"
 - Finding things
   - grep
   - locate
+- Personalize your shell
+  - .bashrc vs .bash_profile
+  - ls colors
+  - Prompts

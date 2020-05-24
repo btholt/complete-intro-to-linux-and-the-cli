@@ -17,6 +17,7 @@ module.exports = {
   },
   pathPrefix: "/complete-intro-to-linux-and-the-cli",
   plugins: [
+    `gatsby-plugin-sharp`,
     `gatsby-plugin-layout`,
     {
       resolve: `gatsby-source-filesystem`,

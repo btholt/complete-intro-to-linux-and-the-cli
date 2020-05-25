@@ -2,4 +2,5 @@ path,title,order,section,description
 "/intro","Introduction","1A","The First Section","this is the description that will show up in social shares"
 "/what-will-you-learn","What you will learn","2A","Linux","It is always good to go in knowing what you're about to learn. Brian goes over why this course is useful to you and what problems Linux is going to solve for you."
 "/what-is-linux","What is Linux","2B","Linux","What is Linux? Why do you need it? Brian goes into why we need Linux and where it came from"
-"/lets-run-linux","Let's Run Linux","2C","Linux","What is Linux? Why do you need it? Brian goes into why we need Linux and where it came from"
+"/lets-run-linux","Let's Run Linux","2C","Linux","Brian goes over how to get Linux running on Windows 10 and macOS computers with either VirtualBox or Multipass"
+"/anatomy-of-a-cli-command","Anatomy of a CLI Command","3A","The CLI","Brian talk about what the command line is, why you'd want to use it, and how to get started with it"

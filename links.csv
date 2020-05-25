@@ -3,3 +3,4 @@ order,title,link0,link1,link2,link3,link4,link5,link6,link7,link8,link9
 2A,What you will learn,,,,,,,,,,
 2B,What is Linux,https://en.wikipedia.org/wiki/Unix-like,https://en.wikipedia.org/wiki/Unix_philosophy,https://ubuntu.com/,https://www.debian.org/,https://www.debian.org/,https://linuxmint.com/,https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux,https://www.alpinelinux.org/,https://www.kali.org/,https://www.centos.org/
 2C,Let's Run Linux,https://www.virtualbox.org/,https://ubuntu.com/download/server,https://www.vmware.com/products/fusion.html,https://www.parallels.com/,https://multipass.run,https://www.virtualbox.org/,https://multipass.run/docs/installing-on-windows,https://multipass.run/docs/installing-on-macos,https://docs.microsoft.com/en-us/windows/wsl/install-win10#update-to-wsl-2,
+3A,Anatomy of a CLI Command,https://en.wikipedia.org/wiki/Bash_(Unix_shell),,,,,,,,,

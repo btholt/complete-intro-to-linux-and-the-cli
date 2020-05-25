@@ -2,7 +2,7 @@
 path: "/lets-run-linux"
 title: "Let's Run Linux"
 order: "2C"
-description: "What is Linux? Why do you need it? Brian goes into why we need Linux and where it came from"
+description: "Brian goes over how to get Linux running on Windows 10 and macOS computers with either VirtualBox or Multipass"
 section: "Linux"
 ---
 

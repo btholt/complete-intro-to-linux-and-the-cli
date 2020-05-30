@@ -4,3 +4,5 @@ path,title,order,section,description
 "/what-is-linux","What is Linux","2B","Linux","What is Linux? Why do you need it? Brian goes into why we need Linux and where it came from"
 "/lets-run-linux","Let's Run Linux","2C","Linux","Brian goes over how to get Linux running on Windows 10 and macOS computers with either VirtualBox or Multipass"
 "/anatomy-of-a-cli-command","Anatomy of a CLI Command","3A","The CLI","Brian talk about what the command line is, why you'd want to use it, and how to get started with it"
+"/common-tips-and-tricks","Common Tips and Tricks","3B","The CLI","Brian talks about the common tips and tricks of the command line like what tilda means, how to find commands you previously ran, and other things to make your life on the command line"
+"/signals-and-the-power-of-ctrl","Signals and the the Power of CTRL","3C","The CLI","Brian talks about how and when to use CTRL when working with the command line: to send signals to bash and to accomplish shortcuts"

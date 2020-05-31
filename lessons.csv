@@ -6,3 +6,6 @@ path,title,order,section,description
 "/anatomy-of-a-cli-command","Anatomy of a CLI Command","3A","The CLI","Brian talk about what the command line is, why you'd want to use it, and how to get started with it"
 "/common-tips-and-tricks","Common Tips and Tricks","3B","The CLI","Brian talks about the common tips and tricks of the command line like what tilda means, how to find commands you previously ran, and other things to make your life on the command line"
 "/signals-and-the-power-of-ctrl","Signals and the the Power of CTRL","3C","The CLI","Brian talks about how and when to use CTRL when working with the command line: to send signals to bash and to accomplish shortcuts"
+"/nano","nano","4A","Editors","Brian discusses one of the most common and most available text editors for the command line, nano"
+"/vim","vim","4B","Editors","Brian answers the age old question: how do you exit vim? In this section Brian goes over the very basics of vim so it will never intimidate you again."
+"/interacting-with-files","Interacting with Files","5A","Files, Pipes, and Permissions","How do you interact with files in the command line? Brian goes over the essential programs for inteacting with files in Linux."

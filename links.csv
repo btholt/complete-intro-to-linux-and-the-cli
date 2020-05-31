@@ -6,3 +6,6 @@ order,title,link0,link1,link2,link3,link4,link5,link6,link7,link8,link9
 3A,Anatomy of a CLI Command,https://en.wikipedia.org/wiki/Bash_(Unix_shell),,,,,,,,,
 3B,Common Tips and Tricks,https://en.wikipedia.org/wiki/Exclamation_mark#History,,,,,,,,,
 3C,Signals and the the Power of CTRL,https://support.apple.com/guide/mac-help/change-the-behavior-of-the-modifier-keys-mchlp1011/mac,https://github.com/microsoft/PowerToys#keyboard-manager,,,,,,,,
+4A,nano,https://xkcd.com/378/,https://www.nano-editor.org/dist/latest/faq.html#1.1,https://en.wikipedia.org/wiki/Recursive_acronym,,,,,,,
+4B,vim,https://en.wikipedia.org/wiki/Ed_(text_editor),https://en.wikipedia.org/wiki/QED_(text_editor),https://en.wikipedia.org/wiki/Ex_(text_editor),https://vim-adventures.com/,https://www.gnu.org/software/emacs/,,,,,
+5A,Interacting with Files,https://github.com/andreafrancia/trash-cli,,,,,,,,,

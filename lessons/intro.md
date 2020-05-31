@@ -40,22 +40,27 @@ description: "this is the description that will show up in social shares"
   - cd
   - ls
   - pwd
-- Where stuff is and why in Linux
+- The briefest primer on command line editors
+  - nano
+  - vi
 - Interacting with files
   - cat
   - tail
   - less / more
   - touch
+- Wildcards and replacements
+  - Wildcards
+  - Replacements
 - Users, groups and permissions
+  - who
+  - finger
   - su
   - sudo
   - chmod
   - chown
 - Environments
   - Variables
-- The briefest primer on command line editors
-  - nano
-  - vi
+- Where stuff is and why in Linux
 - IO
   - Piping into another command
   - Piping into a file (>, >>)
@@ -85,6 +90,7 @@ description: "this is the description that will show up in social shares"
   - Arrays
   - Functions
 - Customizing your own dotfiles
+- cron
 - Finding things
   - grep
   - locate

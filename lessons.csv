@@ -9,3 +9,4 @@ path,title,order,section,description
 "/nano","nano","4A","Editors","Brian discusses one of the most common and most available text editors for the command line, nano"
 "/vim","vim","4B","Editors","Brian answers the age old question: how do you exit vim? In this section Brian goes over the very basics of vim so it will never intimidate you again."
 "/interacting-with-files","Interacting with Files","5A","Files, Pipes, and Permissions","How do you interact with files in the command line? Brian goes over the essential programs for inteacting with files in Linux."
+"/streams-and-pipes","Streams and Pipes","5B","Files, Pipes, and Permissions","Linux has an interesting concept called streams. The most common of these are stdout, stderr, and stdin. Brian goes over what streams are and how to pipe them together."

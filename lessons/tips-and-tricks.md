@@ -20,6 +20,16 @@ Similar to the above, if you say `cd /`, the `/` means root. So you'd be at the 
 
 You will use this _constantly_. If you hit the up arrow, you'll populate the command line with the last command you ran. If you hit up again, you'll go to the one before that, and so on and so forth. If you hit down, you'll go back to a more recent command. This is super useful and I do it all the time.
 
+# Tab Completion
+
+Most shells have a relatively robust tab completion system. When I say "tab completion" I mean you start typing something and hit the tab key, the shell well do its best to figure out what you're trying type. An example would be if I'm in a directory with two files, index.html and package.json, and I start typing `cat i` and hit tab, it will know the only file starting with `i` is index.html and will autocomplete your line to `cat index.html`. Saves you a lot of typing.
+
+For another example, imagine you have two files in a folder, index.html and index.js. If you start typing `cat` and hit tab, it'll complete out to `cat index.` because that's as far it can get without assuming which file you want to open. If you hit tab again, it should show you your two options. If you then hit `j` and hit tab it'll complete out `cat index.js` for you.
+
+Some commands are smart enough to know what sort of thing you're looking for. If you have two files, saved.txt and something-else.txt, and a folder called src, if you type `cd s` and hit tab, you'll autocomplete `cd src` because the shell knows you're looking for a folder when you're using `cd`.
+
+Tab completion will always work with the file system. Some commands have tab completion too. Type `git de` and hit tab and it should complete to `git describe` for example. Admittedly I use this far less because I can never remember which commands have tab completion and which don't. The individual programs have to supply that to he shell for it to work.
+
 # Reverse Search
 
 Instead of having to hit up a bunch of times to find a command you ran forever ago (it keeps track of something like the past 10K commands you've run), you can CTRL+R to do a reverse search (reverse meaning starting with the most recent and working background to most recent.)

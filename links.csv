@@ -9,4 +9,5 @@ order,title,link0,link1,link2,link3,link4,link5,link6,link7,link8,link9
 4A,nano,https://xkcd.com/378/,https://www.nano-editor.org/dist/latest/faq.html#1.1,https://en.wikipedia.org/wiki/Recursive_acronym,,,,,,,
 4B,vim,https://en.wikipedia.org/wiki/Ed_(text_editor),https://en.wikipedia.org/wiki/QED_(text_editor),https://en.wikipedia.org/wiki/Ex_(text_editor),https://vim-adventures.com/,https://www.gnu.org/software/emacs/,,,,,
 5A,Interacting with Files,https://github.com/andreafrancia/trash-cli,,,,,,,,,
-5B,Streams and Pipes,,,,,,,,,,
+5B,Wildcards and Replacements,,,,,,,,,,
+5C,Streams and Pipes,,,,,,,,,,

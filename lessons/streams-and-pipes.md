@@ -1,7 +1,7 @@
 ---
 path: "/streams-and-pipes"
 title: "Streams and Pipes"
-order: "5B"
+order: "5C"
 section: "Files, Pipes, and Permissions"
 description: "Linux has an interesting concept called streams. The most common of these are stdout, stderr, and stdin. Brian goes over what streams are and how to pipe them together."
 ---

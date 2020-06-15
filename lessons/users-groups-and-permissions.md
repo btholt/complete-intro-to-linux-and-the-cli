@@ -84,6 +84,20 @@ The first `d` or `-` represents if it's a directory or a file. Anything with a h
 
 The next three groups represent file permissions. The first groups is the file permissions for the user that owns that file. The next three are the file permissions for the group that owns that file. The last three is for everyone that is not that user or group.
 
+For each of the three, the `r` represents read permission, the `w` represents write permission, and the `x` represents execute permission. I think is best illustrated with a bunch of examples.
+
+`-rw-rw-r--` is a file, it has read-and-write permission for the user and the group, and read permission for everyone else, no write. The file is not executable.
+
+`drwx------` is a directory that can only be written and modified by the user. It's unreadable and unwritable by the group and the rest of the system.
+
+`-rwxr-xr-x` is a file, everyone can read it, everyone can execute it, and only the user can write to it.
+
+So what is executing in this context? It means it's an executable program. If you run `ls -l /usr/bin`, you'll see many of the programs that Linux has. You'll see that these are all executable programs. That's what the `x` is, it mean that the file is a program that can be run.
+
+We'll talk about how Linux knows where these files are in a bit, but if you run `echo $PATH` you'll see that `/usr/local/bin` is in there.
+
+Okay, so back to where we are, if you say `touch brian.txt` as brian in ubuntu's home it won't let you. But try `sudo touch brian.txt` it will work. If you do `ls -l` you'll see it wrote the file as root instead as brian. If we wanted brian to be able to write here, we'd have to change the permissions of the ubuntu home directory (you don't want to do that.)
+
 [sarah]: https://frontendmasters.com/teachers/sarah-drasner/
 [incident]: https://xkcd.com/838/
 [sandwich]: https://xkcd.com/149/

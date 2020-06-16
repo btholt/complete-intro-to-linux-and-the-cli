@@ -98,6 +98,57 @@ We'll talk about how Linux knows where these files are in a bit, but if you run 
 
 Okay, so back to where we are, if you say `touch brian.txt` as brian in ubuntu's home it won't let you. But try `sudo touch brian.txt` it will work. If you do `ls -l` you'll see it wrote the file as root instead as brian. If we wanted brian to be able to write here, we'd have to change the permissions of the ubuntu home directory (you don't want to do that.)
 
+## chown
+
+Okay, so let's modify some stuff then. Switch back to being the ubuntu user if you're still brian (you can run su ubuntu).
+
+Let's make a directory in the root.
+
+```bash
+whoami # should say ubuntu
+cd /
+mkdir hello # permission denied, you don't have permission to do that here
+sudo mkdir hello # works, but now hello is owned by root:root
+ls -l # notice hello is owned by root:root
+touch hello/text.txt # permission denied, you don't own hello
+sudo chown ubuntu:ubuntu hello # it's <group>:<user>
+ls -l # notice hello is now owned by ubuntu:ubuntu
+touch hello/text.txt # works!
+```
+
+This is what chown does! It allows you to reassign ownership (**ch**ange **own**er).
+
+In general this is not something you need to do a ton of but it's occasionally useful.
+
+## chmod
+
+chmod syntax is delightfully obtuse. Did you come in prepared to do some binary-to-decimal math in your head? Because here we go.
+
+So chmod allows you to directly change the permissions of the file rather just changing the owners. So instead saying "now ubuntu can write to this folder insetad of brian" we can say "any person in this ground can read from it" or "everyone on this computer can read from it". Let's do a few examples.
+
+So let's try a few
+
+```bash
+whoami # should be ubuntu still
+cd ~ # go to home directory
+sudo touch secret.txt # make a file as root
+ls -l secret.txt # -rw-r--r-- so root can read and write but no one else can
+echo "very secret message" >> secret.txt # doesn't work, permission denied
+sudo chmod u=rw,g=rw,o=rw secret.txt # make it so anyone can read or write to the file
+echo "very secret message" >> secret.txt # works this time!
+cat secret.txt # should see very secret message
+```
+
+So that's the easy-to-remember chmod syntax. Just use u=rwx syntax (omit things you don't want the permission for.) The `u` is for user, `g` is for group, and `o` is for other or everybody else. The `r` is for read, the `w` is for write, and the `x` is for execute.
+
+Okay, so now for binary. There is a shortcut for doing this with number instead of `u=rwx,<etc>` and it involves binary. Instead of saying `chmod u=rwx,g=rwx,o=rwx file.txt` you can say `chmod 777 file.txt` and those mean the same thing. Why? Because someone was feeling very lazy.
+
+The magic formula is that you can add 4 to the number is you want to add read, add 2 for write, add 1 for executable, and set to 0 if you want zero permissions. Then do that for each and put the numbers in the order of user, group, other. So `chmod 640 secret.txt` would make it read+write for the user, read for the group, and no permission for anyone else. Why do I teach you this? Because you'll see `chmod 777 stuff.txt` out on StackOverflow and it's a bad idea. It's a hack. It makes a file accessibile to anyone and that's a bad idea. Going back to our principle of least power, we just want to grant the minimal permissions possible.
+
+One last one you'll see is the use of `+` and `-`. If you want to make a file executable, you can say `chmod +x secret.txt` and it'll add executable to each of the permissions. As you may imagine `chmod -x secret.txt` takes it away. You can use it with w and r too, just that's not super common to do.
+
+And that's it for permission! There's a lot more to learn here but this is a great start for you.
+
 [sarah]: https://frontendmasters.com/teachers/sarah-drasner/
 [incident]: https://xkcd.com/838/
 [sandwich]: https://xkcd.com/149/

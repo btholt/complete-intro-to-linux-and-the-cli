@@ -5,9 +5,7 @@ import "./TOCCard.css";
 
 const sortFn = helpers.sorter;
 
-const LessonCard = ({ content, title }) => {
-  console.log(sortFn);
-
+const LessonCard = ({ content }) => {
   const sections = content
     .map(lesson => lesson.node.frontmatter)
     .sort(sortFn)
@@ -29,7 +27,13 @@ const LessonCard = ({ content, title }) => {
 
   return (
     <div className="main-card">
-      <h1 className="lesson-title gradient">{title}</h1>
+      <h1 className="lesson-title gradient">
+        <img
+          src="https://btholt.github.io/complete-intro-to-linux-and-the-cli/TOC.png"
+          alt="table of content"
+          className="toc-image"
+        />
+      </h1>
       <div className="lesson-content">
         <ol className="sections-name">
           {sections.map(section => (

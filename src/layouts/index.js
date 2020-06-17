@@ -69,7 +69,11 @@ const TemplateWrapper = props => {
             />
             <div className="navbar navbar-light gradient">
               <Link to="/" className="navbar-brand">
-                <h1>{data.site.siteMetadata.title}</h1>
+                <img
+                  alt="the complete intro to linux and the cli"
+                  src="https://btholt.github.io/complete-intro-to-linux-and-the-cli/HEADER.png"
+                  className="navbar-brand-image"
+                />
               </Link>
               {!frontmatter ? null : (
                 <h2>{`${frontmatter.section} – ${frontmatter.title}`}</h2>

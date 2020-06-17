@@ -1,5 +1,6 @@
 body {
-  background-color: #eff;
+  background-color: #dcecf4;
+  background-image: url(https://btholt.github.io/complete-intro-to-linux-and-the-cli/WALLPAPER.jpg);
 }
 
 .index {
@@ -10,6 +11,12 @@ body {
 }
 
 .index .jumbotron {
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.jumbotron-hero {
+  width: 100%;
 }
 
 .example-table {

@@ -1,6 +1,6 @@
 ---
 path: "/environments"
-title: "Environments and Processes"
+title: "Environments"
 order: "6A"
 section: "Environments and Processes"
 description: "The environment of a Linux process is key to how it functions. In this section Brian goes over what that means, how to set up your environment, and how to manage it."

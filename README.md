@@ -1,3 +1,5 @@
+[![Complete Intro to Linux and the CLI](/static/WORDMARK-Small.png)](https://bit.ly/linux-cli)
+
 # Under Construction!
 
 The class is scheduled to be taught live on June 30 and July 1, 2020! Be sure to catch it on [Frontend Masters][fem].

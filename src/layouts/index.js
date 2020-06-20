@@ -8,7 +8,7 @@ import "prismjs/themes/prism-solarizedlight.css";
 import "code-mirror-themes/themes/monokai.css";
 import "./index.css";
 
-import jpg from "../../static/posterframe.jpg";
+import jpg from "../../static/WORDMARK-Small.png";
 
 const TemplateWrapper = props => {
   return (

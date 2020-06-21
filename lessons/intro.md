@@ -84,12 +84,15 @@ description: "this is the description that will show up in social shares"
   - ssh
   - ssh keys
   - sftp
+- package management
+  - apt-get vs apt install
+  - snap
+  - aptitude
 - Writing your own scripts
   - Conditionals
   - Loops
   - Arrays
   - Functions
-- Customizing your own dotfiles
 - cron
 - Finding things
   - grep

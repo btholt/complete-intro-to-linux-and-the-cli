@@ -19,3 +19,6 @@ order,title,link0,link1,link2,link3,link4,link5,link6,link7,link8,link9
 7B,SFTP,,,,,,,,,,
 7C,wget,https://github.com/mydzor/bash2048,,,,,,,,,
 7D,curl,https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods,https://en.wikipedia.org/wiki/HTTP_cookie,,,,,,,,
+8A,What is Package Management,,,,,,,,,,
+8B,APT,https://twitter.com/sarah_edo/status/1249702231407857666,https://www.apt-browse.org/,,,,,,,,
+8C,Snaps,https://askubuntu.com/questions/866511/what-are-the-differences-between-snaps-appimage-flatpak-and-others,https://snapcraft.io/node,https://snapcraft.io/lolcat,https://nodesource.com/,,,,,,

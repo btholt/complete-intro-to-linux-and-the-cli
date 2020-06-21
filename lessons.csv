@@ -19,3 +19,6 @@ path,title,order,section,description
 "/sftp","SFTP","7B","Networking and the Internet","Once you have set up ssh you automatically get sftp for free! sftp allows you to securely transfers files to and from a remote machine to your local machine."
 "/wget","wget","7C","Networking and the Internet","Frequently developers will want to interact with the network. Linux provides two command lines that are very well poised to help a developer out. Brian talks about the first of the two most popular, wget."
 "/curl","curl","7D","Networking and the Internet","Frequently developers will want to interact with the network. Linux provides two command lines that are very well poised to help a developer out. Brian talks about two of the most popular, wget and curl."
+"/what-is-package-management","What is Package Management","8A","Package Management","One of the best part of Linux is its infinite ocean of useful packages. Brian talks about the Ubuntu ecosystem and the ability to get packages from apt install."
+"/apt","APT","8B","Package Management","The first tool a developer needs to use for getting packages on Linux is APT. Brian digs into how to get packages and how to find them."
+"/snaps","Snaps","8C","Package Management","The latest in Ubuntu is snaps, a new format for installing dependencies. Brian goes over what snaps are and whether you want to use them."

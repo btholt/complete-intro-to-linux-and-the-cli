@@ -22,3 +22,6 @@ path,title,order,section,description
 "/what-is-package-management","What is Package Management","8A","Package Management","One of the best part of Linux is its infinite ocean of useful packages. Brian talks about the Ubuntu ecosystem and the ability to get packages from apt install."
 "/apt","APT","8B","Package Management","The first tool a developer needs to use for getting packages on Linux is APT. Brian digs into how to get packages and how to find them."
 "/snaps","Snaps","8C","Package Management","The latest in Ubuntu is snaps, a new format for installing dependencies. Brian goes over what snaps are and whether you want to use them."
+"/writing-your-own-scripts","Writing Your Own Scripts","9A","Shell Scripts","Often times you want do more than just one command at a time; you want to run many of them. Bash allows you to put many commands into one file to create a program of programs which is called a shell script."
+"/variables","Variables","9B","Shell Scripts","As a developer writes more complicated scripts they need to use variables to make it more flexible. Brian goes over how to set and use variables"
+"/conditionals","Conditionals","9C","Shell Scripts","In order to write useful bash scripts a developer needs if statements. Brian goes over how to make more complicated scripts using these control structures"

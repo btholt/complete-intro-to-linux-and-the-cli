@@ -25,3 +25,6 @@ path,title,order,section,description
 "/writing-your-own-scripts","Writing Your Own Scripts","9A","Shell Scripts","Often times you want do more than just one command at a time; you want to run many of them. Bash allows you to put many commands into one file to create a program of programs which is called a shell script."
 "/variables","Variables","9B","Shell Scripts","As a developer writes more complicated scripts they need to use variables to make it more flexible. Brian goes over how to set and use variables"
 "/conditionals","Conditionals","9C","Shell Scripts","In order to write useful bash scripts a developer needs if statements. Brian goes over how to make more complicated scripts using these control structures"
+"/loops-and-arrays","Loops and Arrays","9D","Shell Scripts","To make any sort of complicated program you need loops and arrays. In this section Brian teaches the syntax for making arrays and looping over them."
+"/cron","cron","10A","Last Thoughts","Ever had a task that needs to be done every day? Linux has a feature called cron that will run tasks on a schedule. Brian goes over how to set these up."
+"/customize-your-shell","Customize Your Shell","10B","Last Thoughts","All engineers love to customize their tools to their absolute perfect liking. Their shells should be no different. Brian shows how to do a few things to make customize bash."

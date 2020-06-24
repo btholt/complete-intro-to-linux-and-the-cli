@@ -1,7 +1,7 @@
 ---
 path: "/loops-and-arrays"
 title: "Loops and Arrays"
-order: "9D
+order: "9D"
 section: "Shell Scripts"
 description: "To make any sort of complicated program you need loops and arrays. In this section Brian teaches the syntax for making arrays and looping over them."
 ---

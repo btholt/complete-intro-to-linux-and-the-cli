@@ -3,7 +3,7 @@ path: "/customize-your-shell"
 title: "Customize Your Shell"
 order: "10B"
 section: "Last Thoughts"
-description: ""
+description: "All engineers love to customize their tools to their absolute perfect liking. Their shells should be no different. Brian shows how to do a few things to make customize bash."
 ---
 
 All engineers love to customize their tools to their absolute perfect liking. Your shell and emulator should be no different. I'm going to show you a few things you can do to make your shell your own.

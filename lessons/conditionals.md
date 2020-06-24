@@ -75,3 +75,32 @@ fi
 ```
 
 This will let the user give an argument of a number and it will tell you if it's greater than, equal to, or less than 10 using conditionals.
+
+## Case Statements
+
+Let's make one more quick program. Make a file called faces.sh. Put this in flag.sh
+
+```bash
+case $1 in
+  "smile")
+    echo ":)"
+    ;;
+  "sad")
+    echo ":("
+    ;;
+  "laugh")
+    echo ":D"
+    ;;
+  "sword")
+    echo "o()xxx[{::::::::::::::>"
+    ;;
+  "surprise")
+    echo "O_O"
+    ;;
+  *)
+    echo "I don't know that one yet!"
+    ;;
+esac
+```
+
+There's more fanciness you can accomplish with switch statements but I'll let you get more into it if you want to.

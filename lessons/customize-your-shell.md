@@ -32,9 +32,16 @@ The `-e` means looks for escapes (the `\` stuff.) Otherwise it'll ignore them.
 
 Mostly just wanted you to be aware that they exist if you need them.
 
+## Change Your Caps Lock Key
+
+Just a minor suggestion for you all. In the terminal, you use CTRL a lot, you may consider remapping your caps lock from being caps lock to being CTRL. It makes all the combinations of buttons you do much easier.
+
+If you're an aspiring vim developer, you could make it Esc too. Both are good options. For macOS, you can do it from the keyboard settings menu. For Windows, download [PowerToys][pt] and use KeyboardManager.
+
 ## awesome-bash
 
 Lastly, [here's a great list of cool things for bash][awesome]. Definitely have a look around and you'll find all sorts of cool things bash can do!
 
 [powerline]: https://github.com/riobard/bash-powerline
 [bash]: https://github.com/awesome-lists/awesome-bash
+[pt]: https://github.com/microsoft/PowerToys#keyboard-manager

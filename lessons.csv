@@ -1,5 +1,5 @@
 path,title,order,section,description
-"/intro","Introduction","1A","The First Section","this is the description that will show up in social shares"
+"/intro","Introduction","1A","Welcome","this is the description that will show up in social shares"
 "/what-will-you-learn","What you will learn","2A","Linux","It is always good to go in knowing what you're about to learn. Brian goes over why this course is useful to you and what problems Linux is going to solve for you."
 "/what-is-linux","What is Linux","2B","Linux","What is Linux? Why do you need it? Brian goes into why we need Linux and where it came from"
 "/lets-run-linux","Let's Run Linux","2C","Linux","Brian goes over how to get Linux running on Windows 10 and macOS computers with either VirtualBox or Multipass"
@@ -28,3 +28,5 @@ path,title,order,section,description
 "/loops-and-arrays","Loops and Arrays","9D","Shell Scripts","To make any sort of complicated program you need loops and arrays. In this section Brian teaches the syntax for making arrays and looping over them."
 "/cron","cron","10A","Last Thoughts","Ever had a task that needs to be done every day? Linux has a feature called cron that will run tasks on a schedule. Brian goes over how to set these up."
 "/customize-your-shell","Customize Your Shell","10B","Last Thoughts","All engineers love to customize their tools to their absolute perfect liking. Their shells should be no different. Brian shows how to do a few things to make customize bash."
+"/conclusion","Conclusion","10C","Last Thoughts","Brian leaves with you some parting knowledge and gives some suggestions on where to go from here."
+"/errata","Errata","10D","Last Thoughts","Inevitably things get messed up when teaching a course. Notes will be left here on what's wrong in the video."

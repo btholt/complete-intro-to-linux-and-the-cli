@@ -53,7 +53,7 @@ While I have your attention too, I'd like to call out my three favorite charitie
 
 ## Special Thanks to Frontend Masters
 
-![Frontend Masters](./fem.png)
+![Frontend Masters](./images/FrontendMastersLogo.png)
 
 The people at [Frontend Masters][fem] really are my family. Thanks to Marc and his whole wonderful company to their kindness and diligent work. The reason this course exists is because of the hard work they do. And because of them I get to open source this course. The course materials here are licensed such that you can share them whomever you please, whether or not they're a Frontend Masters subscriber. The videos do require you to pay but I think that's worth the trade.
 

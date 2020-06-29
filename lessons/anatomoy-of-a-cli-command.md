@@ -14,7 +14,7 @@ The way a REPL works is that you send one command at a time and the shell runs t
 
 # Shells and Emulators
 
-The first thing we should is get some terminology out of the way. You are a using a **shell** right now, and that shell is almost certainly called [bash][bash] (it definitely is unless you changed something), the **B**ourne **A**gain **Sh**ell (which is making fun of the Bourne shell which bash replaced.) It's by far the most common shell and is over 30 years old.
+The first thing we should is get some terminology out of the way. You are using a **shell** right now, and that shell is almost certainly called [bash][bash] (it definitely is unless you changed something), the **B**ourne **A**gain **Sh**ell (which is making fun of the Bourne shell which bash replaced.) It's by far the most common shell and is over 30 years old.
 
 There are other shells and we'll talk more about them later, the most of common of which are zsh, ash, PowerShell, and cmd.exe. We'll chat about those later.
 

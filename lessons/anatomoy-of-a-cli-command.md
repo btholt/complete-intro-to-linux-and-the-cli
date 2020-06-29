@@ -22,7 +22,7 @@ Your shell is running inside some sort of emulator. That emulator could be Termi
 
 # File System
 
-The way bash works is that you are always in a folder somewhere on your computer. Think of it like youre computer's File Explorer or Finder: you can navigate into and out of folders while you look for files.
+The way bash works is that you are always in a folder somewhere on your computer. Think of it like your computer's File Explorer or Finder: you can navigate into and out of folders while you look for files.
 
 Our first command we're going to run in your computer is `pwd`. So type `pwd` and hit enter. This will send the command `pwd` to the shell which will evaluate that and print out the answer.
 

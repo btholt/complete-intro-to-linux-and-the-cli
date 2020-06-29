@@ -70,8 +70,4 @@ I've shown the shorthand way of doing flags, `-a` with one dash and one letter. 
 
 You can pass parameters to flag too. Let's say in our home directory we wanted to not show the `snap` directory in our output. We can use flags to do that. If we type `ls --ignore snap` it will not output snap. This can also be written as `ls --ignore=snap` to make it clearer what that ignore is referring to. We can also say `ls -I snap` for the shorthand. We can't use the equal here. Lastly we if wanted to do an `ls` on the `/home` directory and not show the `ubuntu` folder, we could type `ls --ignore ubuntu /home`. In this particular case, the order is important. Immediately after ignore, the part you're trying to ignore is passed, then last the parameters to `ls` as a whole is passed. This is why some people like that equals. `ls --ignore=ubuntu /home` is very clear. Up to you.
 
-# Tilda
-
-One last quick tip here is the `~`, called a tilda. On USA layouts of keyboards, it's on the same key as the backtick and to the left of the 1 key. The tilda in bash represents your user's home directory. If you type `cd ~` you'll go to your home directory. If you type `ls ~/snap` you'll list the the contents of `/home/ubuntu/snap`.
-
 [bash]: https://en.wikipedia.org/wiki/Bash_(Unix_shell)

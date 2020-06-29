@@ -59,44 +59,6 @@
 <p>We're going to running our Linux through a process call virtualization. We'll be running a virtual machine which is frequently abbreviated as VMs. VMs are an operating system running within another operating system, called the host machine. The host machine will create a virtual environment with virtual acccess to its hardware to the VM. The VM will have no idea that it's not actually running on real hardware; all it can see is the resources that the host is providing it.</p>
 <p>So, at this point, I'll be giving you instructions on how to get a VM running on macOS and on Windows. I'll give you several options so you can do what's best fit for you.</p>
 <p>I'll recommend most people will want to do Multipass.</p>
-<h1 id="for-either-macos-or-windows-virtualbox" style="position:relative;"><a href="#for-either-macos-or-windows-virtualbox" aria-label="for either macos or windows virtualbox permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>For either macOS or Windows: VirtualBox</h1>
-<p>Oracle makes a product called <a href="https://www.virtualbox.org/">VirtualBox</a>. VirtualBox is a hosted hypervisor which is another way of saying that this is a program that allows you to run VMs. It can run Windows, Linux, macOS, and many other VMs but today all we care about is Linux. I've been using VirtualBox for years and it's a reliable product. It's not the fastest nor the most feature rich but dammit it works.</p>
-<p>What's annoying about going down this path is that you'll need to download VirtualBox and you'll need to download the Ubuntu Server installer as well and go through the whole process. It's possible, it just takes some time. <a href="https://ubuntu.com/download/server">Here's the link to the Ubuntu installer</a>.</p>
-<p>For creating the VM, just create a new Ubuntu 64 bit VM with the all default options. When you go to start it for the first time, it'll ask you to choose a boot media file. Point it at the Ubuntu 20.04 .iso file you downloaded. From here, just follow the instructions to install Ubuntu. Give it a username and password. This doesn't need to be super secure so just it a username and password you can remember. For everything else, just follow the menus and give the default responses. You don't need to connect to GitHub or anything, nor do you need any additional packages installed.</p>
-<p>It will ask you to restart after you install so do that. Once done, you should be able to start your VM and log in to your new shell with the username and password you created. At this point, your screen shoud look something like this:</p>
-<p><span
-      class="gatsby-resp-image-wrapper"
-      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
-    >
-      <a
-    class="gatsby-resp-image-link"
-    href="/complete-intro-to-linux-and-the-cli/static/3066b93cbb2718868a6defdebc134155/ab40b/up-and-running.png"
-    style="display: block"
-    target="_blank"
-    rel="noopener"
-  >
-    <span
-    class="gatsby-resp-image-background-image"
-    style="padding-bottom: 82%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABYlAAAWJQFJUiTwAAACH0lEQVQ4y51TS48SQRBu3u/3W4iagAIOkPAIIUDgsOOa9aeg59Gzyf6HzWr24MFsxMfFGC6jP4ALF+AAAf6GS7bLqs7MZFedkPXwpaqru7/6qqqbTafTe/P5/MVqtRptNpsR2fV6LfzdbjfabrejxWIxWi6XRswEL2ezWZa12+1n/X4fer0edLtdGA6HMBgMoNPpQLPZhEajAfV6XYB8iv0LrVYLJEk6YaFQ6CgSiXCn07m3Wq17m822Z4zdFVcIQDxl4XBYTqVSkEwmOREHg0GOMZ5IJHg0GhVrv9/PvV6vACbmFouFY/KbuEYA4hhJmYxkkMlkxGEkhXg8TmugROl0GrAKOgyaCkBCwxI5+teaf8zsdruMmcHj8XCfz0cqwOVyAVkCxmhPxExIbxOiKjmXy0E2m9VLBIyB2+0WCjEuFBIpli7i2GdzhbgpBwIBoF7hYe5wOIQSVG6ACLQeGb4pIQ2F+haLxcQg0AJaGpKATqAnOlgy9kimPtEkUSlNFEgxxQhaf0W5RHpwKKhIxt4BPRV6NkRGA6DLZKmfVPafykwJsQxZ39BgXLgJ7cwt33QoWsP1Rwp3xF8P+4gyaN/n6j+/3S/j6xWLxZNarQbVavUgaohypQqFJxXIlyUolCtw/5EEuWIJHpdKUMjnn7PxePxAVdVXCOUQfv5QlS8TVXn3daKcff6unH+aKKcX35Q3lx+V9x8uX1+8PX/4G01mlSmlDBhBAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
-  ></span>
-  <img
-        class="gatsby-resp-image-image"
-        alt="Screenshot of logged in shell"
-        title="Screenshot of logged in shell"
-        src="/complete-intro-to-linux-and-the-cli/static/3066b93cbb2718868a6defdebc134155/5a190/up-and-running.png"
-        srcset="/complete-intro-to-linux-and-the-cli/static/3066b93cbb2718868a6defdebc134155/772e8/up-and-running.png 200w,
-/complete-intro-to-linux-and-the-cli/static/3066b93cbb2718868a6defdebc134155/e17e5/up-and-running.png 400w,
-/complete-intro-to-linux-and-the-cli/static/3066b93cbb2718868a6defdebc134155/5a190/up-and-running.png 800w,
-/complete-intro-to-linux-and-the-cli/static/3066b93cbb2718868a6defdebc134155/c1b63/up-and-running.png 1200w,
-/complete-intro-to-linux-and-the-cli/static/3066b93cbb2718868a6defdebc134155/29007/up-and-running.png 1600w,
-/complete-intro-to-linux-and-the-cli/static/3066b93cbb2718868a6defdebc134155/ab40b/up-and-running.png 1736w"
-        sizes="(max-width: 800px) 100vw, 800px"
-        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
-        loading="lazy"
-      />
-  </a>
-    </span></p>
-<p>It bears mentioning that VirtualBox isn't the only option. <a href="https://www.vmware.com/products/fusion.html">VMWare Fusion</a> and <a href="https://www.parallels.com/">Parallels</a> (macOS only) are two great options too. They just aren't free.</p>
 <h1 id="for-either-macos-or-windows-multipass" style="position:relative;"><a href="#for-either-macos-or-windows-multipass" aria-label="for either macos or windows multipass permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>For either macOS or Windows: Multipass</h1>
 <p><a href="https://multipass.run">Multipass</a> is a great new tool from the folks at Canonical (who make Ubuntu). It's a super easy way to spin up and spin down little VMs to try things out. You can even spin up multiple and play with them together. I'd recommend this for most users of macOS and Windows since it just sort of works without a lot of effort and you don't have to install everything yourself.</p>
 <p><strong>If you are on Windows 10 Home</strong> you need to install VirtualBox (<a href="https://www.virtualbox.org/">link here</a>) too in addition to Multipass. Multipass will use VirtualBox if it can't use Microsoft Hyper-V (a feature only available in Windows 10 Pro.) If you are on macOS or Windows 10 Pro, you do not need VirtualBox.</p>
@@ -138,8 +100,46 @@
   </a>
     </span></p>
 <p>You should be here. It has you logged in as the user "ubuntu" who has passwordless root privileges (if you don't know what that means, you'll find out in a bit, just means you're an admin who doesn't need a password.)</p>
+<h1 id="for-either-macos-or-windows-virtualbox" style="position:relative;"><a href="#for-either-macos-or-windows-virtualbox" aria-label="for either macos or windows virtualbox permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>For either macOS or Windows: VirtualBox</h1>
+<p>Oracle makes a product called <a href="https://www.virtualbox.org/">VirtualBox</a>. VirtualBox is a hosted hypervisor which is another way of saying that this is a program that allows you to run VMs. It can run Windows, Linux, macOS, and many other VMs but today all we care about is Linux. I've been using VirtualBox for years and it's a reliable product. It's not the fastest nor the most feature rich but dammit it works.</p>
+<p>What's annoying about going down this path is that you'll need to download VirtualBox and you'll need to download the Ubuntu Server installer as well and go through the whole process. It's possible, it just takes some time. <a href="https://ubuntu.com/download/server">Here's the link to the Ubuntu installer</a>.</p>
+<p>For creating the VM, just create a new Ubuntu 64 bit VM with the all default options. When you go to start it for the first time, it'll ask you to choose a boot media file. Point it at the Ubuntu 18.04 .iso file you downloaded. From here, just follow the instructions to install Ubuntu. Give it a username and password. This doesn't need to be super secure so just it a username and password you can remember. For everything else, just follow the menus and give the default responses. You don't need to connect to GitHub or anything, nor do you need any additional packages installed.</p>
+<p>It will ask you to restart after you install so do that. Once done, you should be able to start your VM and log in to your new shell with the username and password you created. At this point, your screen shoud look something like this:</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/complete-intro-to-linux-and-the-cli/static/3066b93cbb2718868a6defdebc134155/ab40b/up-and-running.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 82%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABYlAAAWJQFJUiTwAAACH0lEQVQ4y51TS48SQRBu3u/3W4iagAIOkPAIIUDgsOOa9aeg59Gzyf6HzWr24MFsxMfFGC6jP4ALF+AAAf6GS7bLqs7MZFedkPXwpaqru7/6qqqbTafTe/P5/MVqtRptNpsR2fV6LfzdbjfabrejxWIxWi6XRswEL2ezWZa12+1n/X4fer0edLtdGA6HMBgMoNPpQLPZhEajAfV6XYB8iv0LrVYLJEk6YaFQ6CgSiXCn07m3Wq17m822Z4zdFVcIQDxl4XBYTqVSkEwmOREHg0GOMZ5IJHg0GhVrv9/PvV6vACbmFouFY/KbuEYA4hhJmYxkkMlkxGEkhXg8TmugROl0GrAKOgyaCkBCwxI5+teaf8zsdruMmcHj8XCfz0cqwOVyAVkCxmhPxExIbxOiKjmXy0E2m9VLBIyB2+0WCjEuFBIpli7i2GdzhbgpBwIBoF7hYe5wOIQSVG6ACLQeGb4pIQ2F+haLxcQg0AJaGpKATqAnOlgy9kimPtEkUSlNFEgxxQhaf0W5RHpwKKhIxt4BPRV6NkRGA6DLZKmfVPafykwJsQxZ39BgXLgJ7cwt33QoWsP1Rwp3xF8P+4gyaN/n6j+/3S/j6xWLxZNarQbVavUgaohypQqFJxXIlyUolCtw/5EEuWIJHpdKUMjnn7PxePxAVdVXCOUQfv5QlS8TVXn3daKcff6unH+aKKcX35Q3lx+V9x8uX1+8PX/4G01mlSmlDBhBAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Screenshot of logged in shell"
+        title="Screenshot of logged in shell"
+        src="/complete-intro-to-linux-and-the-cli/static/3066b93cbb2718868a6defdebc134155/5a190/up-and-running.png"
+        srcset="/complete-intro-to-linux-and-the-cli/static/3066b93cbb2718868a6defdebc134155/772e8/up-and-running.png 200w,
+/complete-intro-to-linux-and-the-cli/static/3066b93cbb2718868a6defdebc134155/e17e5/up-and-running.png 400w,
+/complete-intro-to-linux-and-the-cli/static/3066b93cbb2718868a6defdebc134155/5a190/up-and-running.png 800w,
+/complete-intro-to-linux-and-the-cli/static/3066b93cbb2718868a6defdebc134155/c1b63/up-and-running.png 1200w,
+/complete-intro-to-linux-and-the-cli/static/3066b93cbb2718868a6defdebc134155/29007/up-and-running.png 1600w,
+/complete-intro-to-linux-and-the-cli/static/3066b93cbb2718868a6defdebc134155/ab40b/up-and-running.png 1736w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<p>It bears mentioning that VirtualBox isn't the only option. <a href="https://www.vmware.com/products/fusion.html">VMWare Fusion</a> and <a href="https://www.parallels.com/">Parallels</a> (macOS only) are two great options too. They just aren't free.</p>
 <h1 id="for-windows-users-wsl" style="position:relative;"><a href="#for-windows-users-wsl" aria-label="for windows users wsl permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>For Windows Users: WSL</h1>
-<p>If you're a Windows 10 user, you can install and use WSL. That's what I do for my local development and if you plan on being a serious developer, I'd strongly recommend installing WSL2. It allows you to run Linux natively inside of Windows. It's a bit of a burden to set up still because it's still not available in stable Windows (coming soon!) so I won't walk you through it but I'll leave the doc here if you're keen on going down that path:</p>
+<p>If you're a Windows 10 user, you can install and use WSL. That's what I do for my local development and if you plan on being a serious developer, I'd strongly recommend installing WSL2. It allows you to run Linux natively inside of Windows. It's a bit of a burden to set up still because it's still not available in everyone's stable Windows (coming soon, you need Windows version 2004!) so I won't walk you through it but I'll leave the doc here if you're keen on going down that path:</p>
 <p><a href="https://docs.microsoft.com/en-us/windows/wsl/install-win10#update-to-wsl-2">Docs for installing WSL2</a></p>
 <h1 id="wrap-up" style="position:relative;"><a href="#wrap-up" aria-label="wrap up permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Wrap Up</h1>
 <p>At this point, you should have a shell prompt ready to go so we can continue with the course. This was annoying but necessary! Let's keep going.</p></div><div class="lesson-links"><a class="prev" href="/complete-intro-to-linux-and-the-cli/what-is-linux">← What is Linux</a><a class="next" href="/complete-intro-to-linux-and-the-cli/anatomy-of-a-cli-command">Anatomy of a CLI Command →</a></div></div></div></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/lets-run-linux";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-4e5f7bce55e201d2f21f.js"],"component---src-pages-404-js":["/component---src-pages-404-js-dac811b4701fb3fe8982.js"],"component---src-pages-index-js":["/component---src-pages-index-js-c6f81b13f1a3e59377bb.js"],"component---src-templates-lesson-template-js":["/component---src-templates-lesson-template-js-3726bf6a8f61199c1ef4.js"]};/*]]>*/</script><script src="/complete-intro-to-linux-and-the-cli/component---src-templates-lesson-template-js-3726bf6a8f61199c1ef4.js" async=""></script><script src="/complete-intro-to-linux-and-the-cli/app-4e5f7bce55e201d2f21f.js" async=""></script><script src="/complete-intro-to-linux-and-the-cli/framework-b482fcc869860d486f96.js" async=""></script><script src="/complete-intro-to-linux-and-the-cli/styles-9b6f388623a2ec93d35f.js" async=""></script><script src="/complete-intro-to-linux-and-the-cli/webpack-runtime-0df2905d94514d890b8e.js" async=""></script></body></html>

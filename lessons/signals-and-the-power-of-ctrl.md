@@ -1,6 +1,6 @@
 ---
 path: "/signals-and-the-power-of-ctrl"
-title: "Signals and the the Power of CTRL"
+title: "Signals and the Power of CTRL"
 order: "3C"
 section: "The CLI"
 description: "Brian talks about how and when to use CTRL when working with the command line: to send signals to bash and to accomplish shortcuts"

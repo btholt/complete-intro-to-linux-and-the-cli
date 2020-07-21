@@ -28,7 +28,7 @@ For another example, imagine you have two files in a folder, index.html and inde
 
 Some commands are smart enough to know what sort of thing you're looking for. If you have two files, saved.txt and something-else.txt, and a folder called src, if you type `cd s` and hit tab, you'll autocomplete `cd src` because the shell knows you're looking for a folder when you're using `cd`.
 
-Tab completion will always work with the file system. Some commands have tab completion too. Type `git de` and hit tab and it should complete to `git describe` for example. Admittedly I use this far less because I can never remember which commands have tab completion and which don't. The individual programs have to supply that to he shell for it to work.
+Tab completion will always work with the file system. Some commands have tab completion too. Type `git de` and hit tab and it should complete to `git describe` for example. Admittedly I use this far less because I can never remember which commands have tab completion and which don't. The individual programs have to supply that to the shell for it to work.
 
 # Reverse Search
 

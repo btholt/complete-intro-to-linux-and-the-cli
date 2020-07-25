@@ -18,7 +18,7 @@ Actually, so much so, that I've remapped my caps lock to be CTRL since that's a 
 - CTRL + A – takes you to the beginning of the line
 - CTRL + E – takes you to the end of the line
 - CTRL + K – "yank" everything after the cursor
-- CTRL + U – "yank" everything before the cursosr
+- CTRL + U – "yank" everything before the cursor
 - CTRL + Y - "paste" (paste in quotes because it doesn't actually go into your system clipboard) everything you yanked
 - CTRL + L - clear the screen
 - CTRL + R – reverse search through history

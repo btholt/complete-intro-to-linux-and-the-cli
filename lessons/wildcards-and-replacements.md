@@ -59,7 +59,7 @@ Pretty cool right? Okay, let's get a couple more advance ones in there. We'll us
 echo {a..z} # prints a to z
 echo {z..a} # reverse order
 echo {0..100..2} # prints every other (aka even) number from 0 to 100
-echo {100..0..5} # prints every other (aka even) number from 0 to 100
+echo {100..0..5} # prints every 5th number in reverse order from 100 to 0
 echo {a..z}{1..5} # prints out a1 a2 a3 a4 a5 b1 b2 b3 <etc>
 ```
 

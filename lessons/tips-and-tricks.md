@@ -22,7 +22,7 @@ You will use this _constantly_. If you hit the up arrow, you'll populate the com
 
 # Tab Completion
 
-Most shells have a relatively robust tab completion system. When I say "tab completion" I mean you start typing something and hit the tab key, the shell well do its best to figure out what you're trying type. An example would be if I'm in a directory with two files, index.html and package.json, and I start typing `cat i` and hit tab, it will know the only file starting with `i` is index.html and will autocomplete your line to `cat index.html`. Saves you a lot of typing.
+Most shells have a relatively robust tab completion system. When I say "tab completion" I mean you start typing something and hit the tab key, the shell will do its best to figure out what you're trying type. An example would be if I'm in a directory with two files, index.html and package.json, and I start typing `cat i` and hit tab, it will know the only file starting with `i` is index.html and will autocomplete your line to `cat index.html`. Saves you a lot of typing.
 
 For another example, imagine you have two files in a folder, index.html and index.js. If you start typing `cat` and hit tab, it'll complete out to `cat index.` because that's as far it can get without assuming which file you want to open. If you hit tab again, it should show you your two options. If you then hit `j` and hit tab it'll complete out `cat index.js` for you.
 
@@ -64,7 +64,7 @@ Let's talk a moment about copy and paste with regards to the command line.
 
 1. If you're on Windows, it's a bit of a trick. CTRL+C and CTRL+V already mean something different to bash (they're signals, we'll talk about those shortly) so those don't work as you'd anticipate. You'll need to use `Shift+CTRL+C` and `Shift+CTRL+V`. Because macOS uses CMD+C and CMD+V for copy and paste and those don't mean anything to bash, nothing changes for them.
 2. Be careful of what you copy and paste. If you copy something off a website, using JavaScript they can switch what you highlight with something more nefarious so that when you paste it, it doesn't do what you copied. So I could have copied `echo "this is harmless"` but it actually pastes `send_attacker_my_passwords`. Be careful that you trust where you're copying and pasting from (StackOverflow is fine!)
-3. Along with the former point, the attacker can actually even include the return character to execute the command before you can even see what it is. Most emulators (like Windows Terminal and iTerm2) will warn you "hey, we found a return character in this paste, you should meant to do this?" but you shouldn't rely on the emulator to save you.
+3. Along with the former point, the attacker can actually even include the return character to execute the command before you can even see what it is. Most emulators (like Windows Terminal and iTerm2) will warn you "hey, we found a return character in this paste, are you sure you meant to do this?" but you shouldn't rely on the emulator to save you.
 4. In general it's just helpful to understand what you're doing. If you copy and paste something, make an effort to grasp what it's doing and how.
 
 [wiki]: https://en.wikipedia.org/wiki/Exclamation_mark#History

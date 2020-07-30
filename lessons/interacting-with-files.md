@@ -88,7 +88,7 @@ You should now see a file called archive.tar. This is a single file that contain
 However, this archive isn't compressed. It's literally just the files stuck together. Normally we'd want to compress this as well and tar makes it really easy to. If you just tack on the `-z` flag, it'll automatically compress it. So try this
 
 ```bash
-tar -cfz archive.tar.gz file1.txt file2.txt folder1
+tar -zcf archive.tar.gz file1.txt file2.txt folder1
 ls -lsah
 ```
 

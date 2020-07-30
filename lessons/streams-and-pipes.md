@@ -95,7 +95,7 @@ stderr and stdout direct the text from a program to a file. With stdin, we can d
 cat < ls.txt
 ```
 
-Now, again, not entirely useful, since `cat < ls.txt` would have done the same thing. But let's say it's a very long file and we want to find one very specific line. We could do this:
+Now, again, not entirely useful, since `cat ls.txt` would have done the same thing. But let's say it's a very long file and we want to find one very specific line. We could do this:
 
 ```bash
 grep "error-log.txt" < ls.txt

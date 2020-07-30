@@ -94,7 +94,7 @@
 <span class="token function">ls</span> -lsah</code></pre></div>
 <p>You should now see a file called archive.tar. This is a single file that contains the above files. You should ship this off to your friend and they'd have the same three files with that directory when they un-tar'd it.</p>
 <p>However, this archive isn't compressed. It's literally just the files stuck together. Normally we'd want to compress this as well and tar makes it really easy to. If you just tack on the <code class="language-text">-z</code> flag, it'll automatically compress it. So try this</p>
-<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">tar</span> -cfz archive.tar.gz file1.txt file2.txt folder1
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">tar</span> -zcf archive.tar.gz file1.txt file2.txt folder1
 <span class="token function">ls</span> -lsah</code></pre></div>
 <p>Notice archive.tar.gz is significantly smaller than archive.tar. This is because it got run through gzip.</p>
 <p>So let's unpack one of these. We'll do the gzip'd one because 99.99% of the time it should be compressed.</p>

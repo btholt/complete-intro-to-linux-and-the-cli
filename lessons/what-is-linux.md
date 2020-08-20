@@ -47,7 +47,7 @@ The knowledgebase for Linux is enormous. Having a problem? Chances are someone e
 
 # What Makes Linux, Linux
 
-At its core, Linux is the kernel. Anything based on this Linux kernel is a considered a Linux distribution, or distro for short.
+At its core, Linux is the kernel. Anything based on this Linux kernel is considered a Linux distribution, or distro for short.
 
 ![Linux Kernel Map](./images/linux_kernel_map.png)
 

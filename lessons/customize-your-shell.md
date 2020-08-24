@@ -40,7 +40,7 @@ If you're an aspiring vim developer, you could make it Esc too. Both are good op
 
 ## awesome-bash
 
-Lastly, [here's a great list of cool things for bash][awesome]. Definitely have a look around and you'll find all sorts of cool things bash can do!
+Lastly, [here's a great list of cool things for bash][bash]. Definitely have a look around and you'll find all sorts of cool things bash can do!
 
 [powerline]: https://github.com/riobard/bash-powerline
 [bash]: https://github.com/awesome-lists/awesome-bash

@@ -61,7 +61,7 @@ A lot of these distros will share components even amongst themselves. For exampl
 
 There are so, so, so many distros of Linux. They all do different things well and some of them are very specialized in what sorts of things they can accomplish. I'm going to only introduce you primarily to one through the course of this class, [Ubuntu][ubuntu], but that's not say there aren't many good reasons to choose other ones.
 
-Why are we choosing Ubuntu? It's a very good choice for many different use cases. In my opinion, it's the best general purpose distro for many use cases. It's a _downstream_ distro of [Debian][debian] where downstream means that Ubuntu builds upon the base of Debian. Ubuntu is a very polished (when I say polished I mean it has a nice interface) distro of Linux which I think it is the easiest to use. It's backed a company called Canonical who puts a lot of love into the distro and they're definitely one of my favorite companies.
+Why are we choosing Ubuntu? It's a very good choice for many different use cases. In my opinion, it's the best general purpose distro for many use cases. It's a _downstream_ distro of [Debian][debian] where downstream means that Ubuntu builds upon the base of Debian. Ubuntu is a very polished (when I say polished I mean it has a nice interface) distro of Linux which I think it is the easiest to use. It's backed by a company called Canonical who puts a lot of love into the distro and they're definitely one of my favorite companies.
 
 Ubuntu is a great choice for running Linux on as your main OS (I don't), for servers in the cloud, for IoT, or for any other of myriad things. It's a really great, flexible distribution.
 

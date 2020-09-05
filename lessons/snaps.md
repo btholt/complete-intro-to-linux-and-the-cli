@@ -22,7 +22,7 @@ As stated above, it's just another way of packaging an app up and for the most p
 
 - Snaps update automatically and you actually can't stop that from happening really. Debs update whenever you choose to do so
 - Snaps are safer. They're sandboxed and cannot break out of their home folders. Debs really can do whatever they want
-- Snaps are also how Ubuntu lets publish GUI apps like Visual Studio Code, Spotify, Firefox, etc. There's more than just command line tools. [See here for the store][store].
+- Snaps are also how Ubuntu lets publish GUI apps like Visual Studio Code, Spotify, Firefox, etc. There's more than just command line tools. [See here for the store][snap].
 - Debs are reviewed before they're allowed onto the registry. They have to be or else renegade devs could publish anything they want. Snaps, due to their sandboxing, don't have to be.
 
 Which should you prefer? Often things like like [node][node] and [lolcat][lolcat] are available on both. I think you're fine with either. When I use a Linux desktop I 100% prefer snaps for desktop apps like Visual Studio Code, Spotify, and Firefox, but for commandline tools I tend to just follow whatever the instructions suggestion. You're good either way.

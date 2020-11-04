@@ -6,7 +6,7 @@ section: "Editors"
 description: "Brian discusses one of the most common and most available text editors for the command line, nano"
 ---
 
-I am not a command-line-text-editor person and never have been. I made one shot in 2013-ish to try to switch to vim and ended up broken and confused. However as a newly-minted CLI afficanado, it's important that you know how to do the most basic sorts of text editing on in a CLI since you can't always open things outside of the CLI, and sometimes the CLI will toss you into a text editor and you need to know how to get done what you need to get done.
+I am not a command-line-text-editor person and never have been. I made one shot in 2013-ish to try to switch to vim and ended up broken and confused. However as a newly-minted CLI aficionado, it's important that you know how to do the most basic sorts of text editing on in a CLI since you can't always open things outside of the CLI, and sometimes the CLI will toss you into a text editor and you need to know how to get done what you need to get done.
 
 ![xkcd comic, saying that nano, vi, emacs, etc devs aren't real developers and you need to use butterflys to influence the outer atmosphere to direct cosmic rays to your harddrive to flip bits to be a real programmer](./images/real_programmers.png)
 

@@ -70,10 +70,15 @@ ls -lsah 1> ls.txt 2> ls.txt
 Or, even more easily,
 
 ```bash
-ls -lsah > ls.txt
+ls -lsah &> ls.txt
 ```
 
-Yes, if you put no number there, it will output _both_ streams to the same file. Honestly this is what I normally do unless I'm keeping track of an error log separately (like I would on a production machine) but for just every day stuff, this is normally what I'd do. `>>` will work too for appending.
+This will output _both_ streams to the same file. Honestly this is what I normally do unless I'm keeping track of an error log separately (like I would on a production machine) but for just every day stuff, this is normally what I'd do. 
+
+For appending, rather than overwriting,
+```bash
+ls -lsah >> ls.txt 2>&1
+```
 
 ## /dev/null
 

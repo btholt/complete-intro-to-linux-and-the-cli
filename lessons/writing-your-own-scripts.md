@@ -49,7 +49,7 @@ Your user a variable set called `PATH`. Your PATH is a series of locations of wh
 
 You can see your PATH if you run `echo $PATH`. You should see something like `/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin` (it may not be exactly this.)
 
-In general I don't mess any of those directories. All of those are system wide bin directories (if you had more than one user they'd share them.)
+In general I don't mess with any of those directories. All of those are system wide bin directories (if you had more than one user they'd share them.)
 So a good idea is to have your own `~/bin` directory. So let's do that.
 
 ```bash

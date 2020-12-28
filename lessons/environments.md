@@ -41,7 +41,7 @@ Again, once we close this window, GREETING goes away.
 
 ## Permanent
 
-So what if we want to last forever? There are a few options but really only one is recommend.
+So what if we want to last forever? There are a few options but really only one is recommended.
 
 The first is editing `/etc/environment`. This will modify _every_ user's environment so it's often not what you want. Each line in that environment file's format should be `VARIABLE=value` with one per line.
 

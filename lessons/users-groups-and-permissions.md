@@ -111,7 +111,7 @@ mkdir hello # permission denied, you don't have permission to do that here
 sudo mkdir hello # works, but now hello is owned by root:root
 ls -l # notice hello is owned by root:root
 touch hello/text.txt # permission denied, you don't own hello
-sudo chown ubuntu:ubuntu hello # it's <group>:<user>
+sudo chown ubuntu:ubuntu hello # it's <user>:<group>
 ls -l # notice hello is now owned by ubuntu:ubuntu
 touch hello/text.txt # works!
 ```

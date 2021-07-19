@@ -18,7 +18,7 @@ Similar to the above, if you say `cd /`, the `/` means root. So you'd be at the 
 
 # Up and Down
 
-You will use this _constantly_. If you hit the up arrow, you'll populate the command line with the last command you ran. If you hit up again, you'll go to the one before that, and so on and so forth. If you hit down, you'll go back to a more recent command. This is super useful and I do it all the time.
+You will use this _constantly_. If you hit the up arrow, you'll populate the command line with the last command you ran. If you hit up again, you'll go to the one before that, and so on and so forth. If you hit down, you'll go back to a more recent command. This is super useful and I do it all the time. Another way to do this is with CTRL-N and CTRL-P. You may find this more convenient to type and it's easy to remember, just think control next and control previous.
 
 # Tab Completion
 

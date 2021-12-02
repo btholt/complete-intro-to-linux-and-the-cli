@@ -21,7 +21,7 @@ friends=(Kyle Marc Jem "Brian Holt" Sarah)
 
 echo My second friend is ${friends[1]}
 
-for friend in ${friends[*]}
+for friend in "${friends[*]}"
 do
     echo friend: $friend
 done

@@ -13,6 +13,7 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
+  padding: 10px;
 }
 
 .navbar-brand {
@@ -52,6 +53,41 @@
     max-width: 100%;
     text-align: center;
   }
+}
+
+.button {
+  border-radius: 10px;
+  padding: 0;
+  background: #0066cc;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.button .icon {
+  padding-left: 5px;
+  display: inline-block;
+}
+
+.button a {
+  padding: 3px 8px;
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 1450px) {
+  .mobile-hidden {
+    display: none;
+  }
+  .lesson-container {
+    padding-top: 65px;
+  }
+}
+
+.button:hover {
+  background: #0d6efd;
 }
 
 .jumbotron.gradient {

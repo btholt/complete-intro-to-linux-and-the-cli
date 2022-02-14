@@ -8,7 +8,7 @@ description: "Using a few tricks you can cleverly select multiple files at a tim
 
 A brief aside here for how to select multiple files.
 
-## Wilcards
+## Wildcards
 
 Let's you wanted to remove all the .txt files in your directory. You could say `rm file1.txt file2.txt file3.txt <etc>` but that's time consuming. You know they all end with .txt, wouldn't it be nice if you could say "remove anything that ends in .txt"? You can! That's what the wildcard `*` is for with paths. Instead of the command above, you can do `rm *.txt` and it'll remove everything matches that pattern. If you want to try this, use the `-i` flag so it'll prompt if you want to delete the files or not so you don't accidentally things you don't mean to.
 

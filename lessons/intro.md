@@ -20,7 +20,7 @@ As you may know, the official mascot of Linux is a penguin. We decided to give t
 
 ## Who Are You
 
-This course is anyone who has ever wanted to learn the command line for any reason. You can be learning your very first programming language or you could be an industry veteran of decades; I beleive the knowledge in this course will help anyone. Honestly, it was years in the field before I actually took the time to investigate how to use the command line better. I imagine many of you are in the same boat.
+This course is for anyone who has ever wanted to learn the command line for any reason. You can be learning your very first programming language or you could be an industry veteran of decades; I beleive the knowledge in this course will help anyone. Honestly, it was years in the field before I actually took the time to investigate how to use the command line better. I imagine many of you are in the same boat.
 
 A tiny bit of programming experience is helpful. If this is the first code you will ever have written there are some sections that could be challenging. But even then there's still a lot here for you.
 

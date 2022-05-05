@@ -50,7 +50,7 @@ Touch create a new, empty file. If I say `touch new-file.txt` it'll create a new
 
 Remove a file! Be very careful, this program has got no chill. You tell it delete it everything and it will oblige you.
 
-If you say `rm new-file.txt` it will remove the one file. If you say `rm my-new-folder` it won't let you. You have to say `rm -r my-new-folder` to remove a directory. If my-new-folder has anything in it, it's going to make you confirm every single file that you want to delete it. If you're removing a very full file, this can get tedios so you can add `-f` to force everything through without confirmation.
+If you say `rm new-file.txt` it will remove the one file. If you say `rm my-new-folder` it won't let you. You have to say `rm -r my-new-folder` to remove a directory. If my-new-folder has anything in it, it's going to make you confirm every single file that you want to delete it. If you're removing a very full file, this can get tedious so you can add `-f` to force everything through without confirmation.
 
 Again, exercise huge caution here, `rm -rf` is a bell that you can't unring. Once something has been `rm`'d, it doesn't go to the trash, it's just gone.
 

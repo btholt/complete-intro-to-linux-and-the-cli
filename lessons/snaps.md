@@ -12,7 +12,7 @@ Canonical a few years announced a new way of packaging app called snaps. Snaps a
 
 - They're totally self contained. They package all their dependencies with them
 - They're sandboxed. They can't mess with your system
-- They can update by just downloading the difference between ther versions
+- They can update by just downloading the difference between their versions
 
 Debs are none of those but they've been around forever. Snaps can also run on other Linux distros like Fedora, Gentoo, and CentOS as long as you download the program that runs them (snapd.) There are two other chief competitors in this improved portable packaging format: AppImage and flatpak. Suffice to say, I'm not going to get into which is best because it's nuanced and I don't have a strong take on it, I just use Snap because it's made by Canonical, the same people who make Ubuntu. If you want more depth, [click here][snap-vs].
 

@@ -26,7 +26,7 @@ The way bash works is that you are always in a folder somewhere on your computer
 
 Our first command we're going to run in your computer is `pwd`. So type `pwd` and hit enter. This will send the command `pwd` to the shell which will evaluate that and print out the answer.
 
-`pwd` is a little program that tells you the current **path** of where you are in the file system. `pwd` stands for present working directory. It's basically like asking the computer "where am I right now?" Mine says `/home/ubuntu`. I am inside of the `ubuntu` folder which itself is inside of the `home` directory. The terms **folder** and **directory** are interchangeable and I say both all the time.
+`pwd` is a little program that tells you the current **path** of where you are in the file system. `pwd` stands for print working directory. It's basically like asking the computer "where am I right now?" Mine says `/home/ubuntu`. I am inside of the `ubuntu` folder which itself is inside of the `home` directory. The terms **folder** and **directory** are interchangeable and I say both all the time.
 
 This is what paths look like, `/<outermost folder name>/<a nest folder>/<a yet more nest folder>`. The `/` represents a level of nesting inside of another folder. The **root** directory is at `/`.
 
